@@ -4,7 +4,7 @@ create table DEMO
   name        VARCHAR2(30),
   age         NUMBER(11),
   type        NUMBER(11),
-  phone       VARCHAR2(11),
+  phone       VARCHAR2(50),
   creste_time DATE
 );
 -- Add comments to the columns
