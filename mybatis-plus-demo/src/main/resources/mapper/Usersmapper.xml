@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.UsersMapper">
+
+    <select id="selectPageVo"  resultType="com.example.demo.entity.Users">
+        select id,username,phone_no,channel,create_time from users where 1=1
+         ${ew.sqlSegment}
+    </select>
+
+    <select id="getByUserId" parameterType="Long" resultType="com.example.demo.entity.Users">
+        <![CDATA[
+
+        select id,username,phone_no,channel from users where id = #{id}
+
+        ]]>
+    </select>
+
+    <select id="getByUserInfo" parameterType="Long" resultType="com.example.demo.entity.Users">
+        <![CDATA[
+
+        select id,username,phone_no,channel from users where rownum <= 200
+
+        ]]>
+    </select>
+
+    <select id="getByUserAmount" parameterType="Long" resultType="com.example.demo.entity.Users">
+        <![CDATA[
+            select t.username,t.id_no,t.credit_ceiling,t.current_credit_loan from users t where rownum <=200
+        ]]>
+    </select>
+
+    <select id="listAll"  resultType="com.example.demo.entity.Users">
+        select id,username,phone_no,id_no,channel,create_time from users where 1=1
+        <if test="username != null" >
+            and username = #{username}
+        </if>
+        <if test="id != null" >
+            and id = #{id}
+        </if>
+    </select>
+</mapper>
+
