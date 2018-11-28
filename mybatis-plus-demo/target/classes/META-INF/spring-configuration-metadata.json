@@ -1,0 +1,150 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo",
+      "type": "com.example.demo.common.config.MongoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.address",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": false,
+      "name": "mongo.always-use-m-beans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.authentication-database",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 10000,
+      "name": "mongo.connect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.database",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 20000,
+      "name": "mongo.heartbeat-connect-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 10000,
+      "name": "mongo.heartbeat-frequency",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 20000,
+      "name": "mongo.heartbeat-socket-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 15,
+      "name": "mongo.local-threshold",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 0,
+      "name": "mongo.max-connection-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 0,
+      "name": "mongo.max-connection-life-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 100,
+      "name": "mongo.max-connections-per-host",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 120000,
+      "name": "mongo.max-wait-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 0,
+      "name": "mongo.min-connections-per-host",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 500,
+      "name": "mongo.min-heartbeat-frequency",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.replica-set",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 30000,
+      "name": "mongo.server-selection-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": false,
+      "name": "mongo.socket-keep-alive",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 0,
+      "name": "mongo.socket-timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": false,
+      "name": "mongo.ssl-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": false,
+      "name": "mongo.ssl-invalid-host-name-allowed",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "defaultValue": 5,
+      "name": "mongo.threads-allowed-to-block-for-connection-multiplier",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.demo.common.config.MongoProperties",
+      "name": "mongo.username",
+      "type": "java.lang.String"
+    }
+  ]
+}
