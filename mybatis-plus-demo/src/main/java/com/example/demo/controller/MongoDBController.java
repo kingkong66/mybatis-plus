@@ -28,7 +28,7 @@ import java.util.List;
 public class MongoDBController {
 
     @Autowired
-    private MongoTemplate mongoTemplate;
+    private MongoTemplate mongoTemplate; 
 
     /**
      * http://localhost:8080/mongodb/selectOne
