@@ -68,11 +68,10 @@ public class DistrIdGenerator {
 
     /**
      * 格式化数字，前置位不够补0
-     *
      * @param num
-     *            : 数值
+     * : 数值
      * @param p
-     *            ：位数,最多支持6位
+     * ：位数,最多支持6位
      * @return
      */
     private static String formatNumber(int num, int p) {
